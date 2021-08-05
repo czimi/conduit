@@ -8,13 +8,13 @@
         "name" : "TestConduitApp",
         "children" : [ {
           "name" : "test_sign_in",
-          "uid" : "81ce9ab973b5a8ab",
+          "uid" : "92f51a04c4688cdc",
           "parentUid" : "a49f8ea6cd62210cd0f8210214ae0161",
           "status" : "broken",
           "time" : {
-            "start" : 1628194544812,
-            "stop" : 1628194547259,
-            "duration" : 2447
+            "start" : 1628194877172,
+            "stop" : 1628194879592,
+            "duration" : 2420
           },
           "flaky" : false,
           "newFailed" : false,
