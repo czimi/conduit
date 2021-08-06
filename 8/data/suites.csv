@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Aug 06 18:34:07 GMT 2021","Fri Aug 06 18:34:09 GMT 2021","2655","test_conduit","test_TC2_signup_wrong_pwd","TestConduitApp","","","test_registration_wrong_pw",""
-"passed","Fri Aug 06 18:34:02 GMT 2021","Fri Aug 06 18:34:06 GMT 2021","4080","test_conduit","test_TC1_accept_cookies","TestConduitApp","","","test_accept_cookies",""
-"passed","Fri Aug 06 18:34:11 GMT 2021","Fri Aug 06 18:34:14 GMT 2021","3204","test_conduit","test_TC4_signin","TestConduitApp","","","test_sign_in",""
