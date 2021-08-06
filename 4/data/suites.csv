@@ -1,2 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Fri Aug 06 08:12:14 GMT 2021","Fri Aug 06 08:12:14 GMT 2021","0","test_conduit","test_TC4_signin","TestConduitApp","","","test_sign_in",""
