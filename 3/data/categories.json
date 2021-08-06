@@ -6,13 +6,13 @@
       "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/nav/div/ul/li[4]/a\"}\n  (Session info: headless chrome=92.0.4515.131)",
       "children" : [ {
         "name" : "test_sign_in",
-        "uid" : "92f51a04c4688cdc",
+        "uid" : "91e5410f942418d8",
         "parentUid" : "4414cf97a4eec8a215370035494a7179",
         "status" : "broken",
         "time" : {
-          "start" : 1628194877172,
-          "stop" : 1628194879592,
-          "duration" : 2420
+          "start" : 1628233889457,
+          "stop" : 1628233891953,
+          "duration" : 2496
         },
         "flaky" : false,
         "newFailed" : false,
