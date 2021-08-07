@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //a[contains(.,\"Sign in)] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(.,\"Sign in)]' is not a valid XPath expression.\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_sign_in",
+        "uid" : "37557fc96528a205",
+        "parentUid" : "2fd8471a2418565d623e5f0c7e0f18ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628360806907,
+          "stop" : 1628360809446,
+          "duration" : 2539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2fd8471a2418565d623e5f0c7e0f18ac"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div/div/div/form/fieldset/fieldset[1]/input\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_create_new_blogpost",
+        "uid" : "47348799ac3be51d",
+        "parentUid" : "282a1fef793593d0a80646ad9fb7f17f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628360811086,
+          "stop" : 1628360819532,
+          "duration" : 8446
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "282a1fef793593d0a80646ad9fb7f17f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

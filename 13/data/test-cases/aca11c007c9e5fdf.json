@@ -1,0 +1,84 @@
+{
+  "uid" : "aca11c007c9e5fdf",
+  "name" : "test_registration_wrong_pw",
+  "fullName" : "test_conduit.test_TC2_signup_wrong_pwd.TestConduitApp#test_registration_wrong_pw",
+  "historyId" : "22cd55746198e2442b5dc08101345659",
+  "time" : {
+    "start" : 1628360803402,
+    "stop" : 1628360806361,
+    "duration" : 2959
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "271885ae813c97ca",
+      "name" : "Passwordfailure",
+      "source" : "271885ae813c97ca.png",
+      "type" : "image/png",
+      "size" : 48794
+    }, {
+      "uid" : "6ede8cbf8ea39672",
+      "name" : "log",
+      "source" : "6ede8cbf8ea39672.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "5d781c192e27d9c3",
+      "name" : "stderr",
+      "source" : "5d781c192e27d9c3.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC2_signup_wrong_pwd"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestConduitApp"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-521"
+  }, {
+    "name" : "thread",
+    "value" : "3826-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_conduit.test_TC2_signup_wrong_pwd"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aca11c007c9e5fdf.json",
+  "parameterValues" : [ ]
+}
