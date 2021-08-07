@@ -1,0 +1,93 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test_conduit",
+    "children" : [ {
+      "name" : "test_TC1_accept_cookies",
+      "children" : [ {
+        "name" : "TestConduitApp",
+        "children" : [ {
+          "name" : "test_accept_cookies",
+          "uid" : "497913c19ef51c4a",
+          "parentUid" : "0c40c17df844a064e96eeefa39efb55e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628353328632,
+            "stop" : 1628353332699,
+            "duration" : 4067
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0c40c17df844a064e96eeefa39efb55e"
+      } ],
+      "uid" : "ebd98662ff56a1d6c578254ac9c18741"
+    }, {
+      "name" : "test_TC2_signup_wrong_pwd",
+      "children" : [ {
+        "name" : "TestConduitApp",
+        "children" : [ {
+          "name" : "test_registration_wrong_pw",
+          "uid" : "dc0a0650374372b3",
+          "parentUid" : "71063867b9578d19bb05b5e5b0321db2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1628353333297,
+            "stop" : 1628353335833,
+            "duration" : 2536
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "71063867b9578d19bb05b5e5b0321db2"
+      } ],
+      "uid" : "b1e230f4e02589c8f4623a6e80ac6cd3"
+    }, {
+      "name" : "test_TC4_signin",
+      "children" : [ {
+        "name" : "TestConduitApp",
+        "children" : [ {
+          "name" : "test_sign_in",
+          "uid" : "5a46160efc4f12a0",
+          "parentUid" : "a49f8ea6cd62210cd0f8210214ae0161",
+          "status" : "broken",
+          "time" : {
+            "start" : 1628353337500,
+            "stop" : 1628353340159,
+            "duration" : 2659
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a49f8ea6cd62210cd0f8210214ae0161"
+      } ],
+      "uid" : "69f5ed8552d877dbe2136d91c3a0c6d5"
+    }, {
+      "name" : "test_TC5_create_new_blogpost",
+      "children" : [ {
+        "name" : "TestConduitApp",
+        "children" : [ {
+          "name" : "test_create_new_blogpost",
+          "uid" : "7b7e75b7e7b62830",
+          "parentUid" : "5ea57bf48273be07aa4b43786648bdf6",
+          "status" : "broken",
+          "time" : {
+            "start" : 1628353340331,
+            "stop" : 1628353340331,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5ea57bf48273be07aa4b43786648bdf6"
+      } ],
+      "uid" : "68938323e35002b15c2566aacfb46efb"
+    } ],
+    "uid" : "09e222cda9719ade62f3f4244b24ac14"
+  } ],
+  "name" : "suites"
+}
