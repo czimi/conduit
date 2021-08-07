@@ -13,5 +13,5 @@ def registration_user(browser):
     password_input.send_keys("Proba123")
     signup_btn.click()
     time.sleep(2)
-    confirm_btn = browser.find_element_by_xpath('/html/body/div[2]/div/div[4]/div/button')
+    confirm_btn = browser.find_element_by_xpath('//button[contains(.,"OK")]')
     confirm_btn.click()
