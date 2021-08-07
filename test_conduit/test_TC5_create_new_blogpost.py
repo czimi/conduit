@@ -25,18 +25,14 @@ class TestConduitApp(object):
     def test_create_new_blogpost(self):
         registration_user(self.browser)
         time.sleep(3)
-        self.browser.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a').click()
+        self.browser.find_element_by_xpath('//a[@href="#/editor"]').click()
         time.sleep(3)
-        article_title_input = self.browser.find_element_by_xpath(
-            '//*[@id="app"]/div/div/div/div/form/fieldset/fieldset[1]/input')
-        article_about_input = self.browser.find_element_by_xpath(
-            '//*[@id="app"]/div/div/div/div/form/fieldset/fieldset[2]/input')
-        article_text_input = self.browser.find_element_by_xpath(
-            '//*[@id="app"]/div/div/div/div/form/fieldset/fieldset[3]/textarea')
-        article_tag_input = self.browser.find_element_by_xpath(
-            '//*[@id="app"]/div/div/div/div/form/fieldset/fieldset[4]/div/div/ul/li/input')
+        article_title_input = self.browser.find_element_by_xpath('//input[@placeholder="Article Title"]')
+        article_about_input = self.browser.find_element_by_xpath('//input[contains(@placeholder,"this article about?")]')
+        article_text_input = self.browser.find_element_by_xpath('//textarea[@placeholder="Write your article (in markdown)"]')
+        article_tag_input = self.browser.find_element_by_xpath('//input[@placeholder="Enter tags"]')
 
-        username_link = self.browser.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[4]/a')
+        username_link = self.browser.find_element_by_xpath('//a[contains(@href,"#/@")]')
 
         article_title_input.send_keys(f'Test Article #{article_number}')
         article_about_input.send_keys(f'Posted by {username_link.text}, {datetime_now}, {article_number}')
@@ -49,10 +45,10 @@ class TestConduitApp(object):
         article_tag_input.send_keys(f'{username_link.text}, {article_number}')
 
         time.sleep(3)
-        self.browser.find_element_by_xpath('//*[@id="app"]/div/div/div/div/form/button').click()
+        self.browser.find_element_by_xpath('//button[contains(.,"Publish Article")]').click()
 
         time.sleep(3)
-        self.browser.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[1]/a').click()
+        self.browser.find_element_by_xpath('//a[contains(normalize-space(),"Home")]').click()
 
         time.sleep(3)
         my_new_article_about = self.browser.find_element_by_xpath(
