@@ -9,21 +9,21 @@ from conduit_registration import *
 datetime_now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 article_number = random.randint(1, 100)
 
+
 class TestConduitApp(object):
 
     def setup(self):
         browser_options = Options()
-        browser_options.headless = True
+        browser_options.headless = False
         self.browser = webdriver.Chrome(ChromeDriverManager().install(), options=browser_options)
         self.browser.get("http://localhost:1667/")
 
     def teardown(self):
         self.browser.quit()
 
-
     # TC5 create a new blogpost (precondition: registration of a new user)
     def test_create_new_blogpost(self):
-        registration_user(self)
+        registration_user(self.browser)
         time.sleep(3)
         self.browser.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a').click()
         time.sleep(3)
