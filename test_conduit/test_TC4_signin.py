@@ -1,8 +1,8 @@
 import time
-import allure
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
+
 from conduit_registration import *
 
 class TestConduitApp(object):
@@ -20,7 +20,12 @@ class TestConduitApp(object):
 
     def test_sign_in(self):
         registration_user(self.browser)
-        self.browser.find_element_by_xpath('//a[@href="#/login"]').click()
+
+        WebDriverWait(
+            self.browser, 10).until(
+            EC.visibility_of_element_located((By.XPATH, '//a[@href="#/login"]'))
+        ).click()
+
         sign_in_email_input = self.browser.find_element_by_xpath('//input[@placeholder="Email"]')
         sign_in_password_input = self.browser.find_element_by_xpath('//input[@placeholder="Password"]')
         sign_in_btn = self.browser.find_element_by_xpath('//button[contains(.,"Sign in")]')
