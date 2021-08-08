@@ -41,7 +41,7 @@ class TestConduitApp(object):
         ).click()
 
 
-    @allure.attach
-    def test_attach_userdata(self):
-        allure.attach(f"username: Próba Pista {self.user_variable},\nemail: proba_pista_{self.user_variable}@proba.com,\nPassword: Proba123",
-                      attachment_type=allure.attachment_type.TEXT)
+    # @allure.attach
+    # def test_attach_userdata(self):
+    #     allure.attach(f"username: Próba Pista {self.user_variable},\nemail: proba_pista_{self.user_variable}@proba.com,\nPassword: Proba123",
+    #                   attachment_type=allure.attachment_type.TEXT)
