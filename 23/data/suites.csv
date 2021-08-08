@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Aug 08 14:08:23 GMT 2021","Sun Aug 08 14:08:26 GMT 2021","2963","test_conduit","test_TC3_signup_dynamic","TestConduitApp","","","test_registration_dynamic_userdata",""
+"passed","Sun Aug 08 14:08:19 GMT 2021","Sun Aug 08 14:08:22 GMT 2021","2745","test_conduit","test_TC2_signup_wrong_pwd","TestConduitApp","","","test_registration_wrong_pw",""
+"passed","Sun Aug 08 14:08:14 GMT 2021","Sun Aug 08 14:08:18 GMT 2021","4106","test_conduit","test_TC1_accept_cookies","TestConduitApp","","","test_accept_cookies",""
+"broken","Sun Aug 08 14:08:43 GMT 2021","Sun Aug 08 14:08:47 GMT 2021","3962","test_conduit","test_TC5_create_new_blogpost","TestConduitApp","","","test_create_new_blogpost",""
+"passed","Sun Aug 08 14:08:28 GMT 2021","Sun Aug 08 14:08:28 GMT 2021","1","test_conduit","test_TC3_signup_dynamic","TestConduitApp","","","test_attach_userdata",""
+"broken","Sun Aug 08 14:08:30 GMT 2021","Sun Aug 08 14:08:41 GMT 2021","11823","test_conduit","test_TC4_signin","TestConduitApp","","","test_sign_in",""
+"broken","Sun Aug 08 14:08:49 GMT 2021","Sun Aug 08 14:08:52 GMT 2021","2954","test_conduit","test_TC7_pagination","TestConduitApp","","","test_pagination",""

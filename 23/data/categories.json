@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_sign_in",
+        "uid" : "1430b5526bc95e72",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628431710059,
+          "stop" : 1628431721882,
+          "duration" : 11823
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href=\"#/editor\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_create_new_blogpost",
+        "uid" : "2a7e3cf2051408bb",
+        "parentUid" : "c110f16dd600ea72bf75233ea3dd0e70",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628431723506,
+          "stop" : 1628431727468,
+          "duration" : 3962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c110f16dd600ea72bf75233ea3dd0e70"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@data-test=\"page-link-1\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_pagination",
+        "uid" : "ccb8b3127f4d1109",
+        "parentUid" : "0397694e50e6ed6f0d8e76b6e610f468",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628431729087,
+          "stop" : 1628431732041,
+          "duration" : 2954
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0397694e50e6ed6f0d8e76b6e610f468"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
