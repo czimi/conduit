@@ -40,8 +40,8 @@ class TestConduitApp(object):
             EC.visibility_of_element_located((By.XPATH, '//*[@class="swal-button swal-button--confirm"]'))
         ).click()
 
-
     # @allure.attach
-    # def test_attach_userdata(self):
-    #     allure.attach(f"username: Próba Pista {self.user_variable},\nemail: proba_pista_{self.user_variable}@proba.com,\nPassword: Proba123",
-    #                   attachment_type=allure.attachment_type.TEXT)
+    def test_attach_userdata(self):
+        allure.attach(
+            f"username: Próba Pista {self.user_variable},\nemail: proba_pista_{self.user_variable}@proba.com,\nPassword: Proba123",
+            attachment_type=allure.attachment_type.TEXT)
