@@ -1,0 +1,86 @@
+{
+  "uid" : "78b999f4198a96c4",
+  "name" : "test_sign_in",
+  "fullName" : "test_conduit.test_TC4_signin.TestConduitApp#test_sign_in",
+  "historyId" : "3aabe61b70b9824a888840d4679d63b2",
+  "time" : {
+    "start" : 1628499512557,
+    "stop" : 1628499512558,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'registration_user' is not defined",
+  "statusTrace" : "self = <test_TC4_signin.TestConduitApp object at 0x7f9dfb49b250>\n\n    def test_sign_in(self):\n>       registration_user(self.browser)\nE       NameError: name 'registration_user' is not defined\n\ntest_conduit/test_TC4_signin.py:22: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "NameError: name 'registration_user' is not defined",
+    "statusTrace" : "self = <test_TC4_signin.TestConduitApp object at 0x7f9dfb49b250>\n\n    def test_sign_in(self):\n>       registration_user(self.browser)\nE       NameError: name 'registration_user' is not defined\n\ntest_conduit/test_TC4_signin.py:22: NameError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "91ecd59c2fb89e23",
+      "name" : "log",
+      "source" : "91ecd59c2fb89e23.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "3ec782632e4559f1",
+      "name" : "stderr",
+      "source" : "3ec782632e4559f1.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC4_signin"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestConduitApp"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-740"
+  }, {
+    "name" : "thread",
+    "value" : "3715-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_conduit.test_TC4_signin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "78b999f4198a96c4.json",
+  "parameterValues" : [ ]
+}
