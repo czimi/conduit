@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_sign_in",
+        "uid" : "bac6d041532ce64d",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628493164150,
+          "stop" : 1628493176320,
+          "duration" : 12170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class=\"swal-button swal-button--confirm\">...</button> is not clickable at point (525, 378). Other element would receive the click: <div class=\"swal-footer\">...</div>\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_create_new_blogpost",
+        "uid" : "c661e39d1d237866",
+        "parentUid" : "90ade2d633517b96c96fe61997fe5d3c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628493177943,
+          "stop" : 1628493179941,
+          "duration" : 1998
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "90ade2d633517b96c96fe61997fe5d3c"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@data-test=\"page-link-1\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_pagination",
+        "uid" : "f84b6db0b23ffd4",
+        "parentUid" : "0397694e50e6ed6f0d8e76b6e610f468",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628493180577,
+          "stop" : 1628493183555,
+          "duration" : 2978
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0397694e50e6ed6f0d8e76b6e610f468"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
