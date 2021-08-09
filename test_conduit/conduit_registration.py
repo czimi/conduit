@@ -16,8 +16,9 @@ def registration_user(browser):
     password_input.send_keys("Proba123")
     signup_btn.click()
 
-    WebDriverWait(
+    element = WebDriverWait(
         browser, 10).until(
         EC.visibility_of_element_located((By.XPATH, '//*[@class="swal-button swal-button--confirm"]'))
-    ).click()
+    )
+    element.click()
 
