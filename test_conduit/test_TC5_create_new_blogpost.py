@@ -23,8 +23,8 @@ class TestConduitApp(object):
 
     # TC5 create a new blogpost (precondition: registration of a new user)
     def test_create_new_blogpost(self):
-        registration_user(self.browser)
-        time.sleep(3)
+        registration_and_login_user(self.browser)
+        time.sleep(2)
         self.browser.find_element_by_xpath('//a[@href="#/editor"]').click()
         time.sleep(3)
         article_title_input = self.browser.find_element_by_xpath('//input[@placeholder="Article Title"]')
