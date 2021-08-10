@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: is_enabled() takes 1 positional argument but 2 were given",
+      "children" : [ {
+        "name" : "test_log_out",
+        "uid" : "1a63adc84135a280",
+        "parentUid" : "6ec3299ff3eced82f55061414af5ac00",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628620071222,
+          "stop" : 1628620074657,
+          "duration" : 3435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6ec3299ff3eced82f55061414af5ac00"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"#/login\" class=\"nav-link\">...</a> is not clickable at point (637, 26). Other element would receive the click: <div class=\"swal-overlay swal-overlay--show-modal\" tabindex=\"-1\">...</div>\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_sign_in",
+        "uid" : "5004437c480636aa",
+        "parentUid" : "945c6cdbdcdbd8fa8a132984de9dac3a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628620088945,
+          "stop" : 1628620091035,
+          "duration" : 2090
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "945c6cdbdcdbd8fa8a132984de9dac3a"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='#/editor']\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_create_new_blogpost",
+        "uid" : "818f7ece6e2eb5a5",
+        "parentUid" : "a0087cd691aa890338943397c6b33a89",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628620091712,
+          "stop" : 1628620097980,
+          "duration" : 6268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0087cd691aa890338943397c6b33a89"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class=\"swal-button swal-button--confirm\">...</button> is not clickable at point (525, 378). Other element would receive the click: <div class=\"swal-footer\">...</div>\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_pagination",
+        "uid" : "59d7f3cf6723fb61",
+        "parentUid" : "90ade2d633517b96c96fe61997fe5d3c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628620099679,
+          "stop" : 1628620101646,
+          "duration" : 1967
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "90ade2d633517b96c96fe61997fe5d3c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
