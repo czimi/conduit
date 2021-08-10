@@ -37,4 +37,4 @@ class TestConduitApp(object):
         time.sleep(2)
 
         username_link = self.browser.find_element_by_xpath('//a[@class="nav-link"][normalize-space()="Próba Pista 0C"]')
-        assert username_link.text == 'Próba Pista 0C'
+        assert username_link.text == f'Próba Pista {username_variable}'
