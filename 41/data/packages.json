@@ -1,0 +1,141 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test_conduit",
+    "children" : [ {
+      "name" : "test_TC12_logout",
+      "children" : [ {
+        "name" : "test_log_out",
+        "uid" : "6dfdc3397fb4fbeb",
+        "parentUid" : "8d829eacdcfd925862eec761c973e4fe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628619199462,
+          "stop" : 1628619202435,
+          "duration" : 2973
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d829eacdcfd925862eec761c973e4fe"
+    }, {
+      "name" : "test_TC1_accept_cookies",
+      "children" : [ {
+        "name" : "test_accept_cookies",
+        "uid" : "a3fb1a428881c4dc",
+        "parentUid" : "042528db63af4913cec99fb2df67066b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628619204056,
+          "stop" : 1628619208107,
+          "duration" : 4051
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "042528db63af4913cec99fb2df67066b"
+    }, {
+      "name" : "test_TC2_signup_wrong_pwd",
+      "children" : [ {
+        "name" : "test_registration_wrong_pw",
+        "uid" : "59fde9da684a6918",
+        "parentUid" : "79cf73d34381434a58c63817eb996e74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628619208750,
+          "stop" : 1628619211198,
+          "duration" : 2448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79cf73d34381434a58c63817eb996e74"
+    }, {
+      "name" : "test_TC3_signup_dynamic",
+      "children" : [ {
+        "name" : "test_registration_dynamic_userdata",
+        "uid" : "6231f507e315defc",
+        "parentUid" : "aa84e14806f77815c9d9c4e6f85fdfba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628619211746,
+          "stop" : 1628619213190,
+          "duration" : 1444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_attach_userdata",
+        "uid" : "dbeebfb9d9a6d233",
+        "parentUid" : "aa84e14806f77815c9d9c4e6f85fdfba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628619214782,
+          "stop" : 1628619214783,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aa84e14806f77815c9d9c4e6f85fdfba"
+    }, {
+      "name" : "test_TC4_signin",
+      "children" : [ {
+        "name" : "test_sign_in",
+        "uid" : "137e2d2f8e07710e",
+        "parentUid" : "60b9a9d53d8b18568288431cd6eadbff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628619216346,
+          "stop" : 1628619217567,
+          "duration" : 1221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "60b9a9d53d8b18568288431cd6eadbff"
+    }, {
+      "name" : "test_TC5_create_new_blogpost",
+      "children" : [ {
+        "name" : "test_create_new_blogpost",
+        "uid" : "945d82d679303d4b",
+        "parentUid" : "76ab1e91b803e06adf2d0b5c59f2369a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628619218198,
+          "stop" : 1628619224462,
+          "duration" : 6264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "76ab1e91b803e06adf2d0b5c59f2369a"
+    }, {
+      "name" : "test_TC7_pagination",
+      "children" : [ {
+        "name" : "test_pagination",
+        "uid" : "e6b14d7dfaa93365",
+        "parentUid" : "6f84fb244e8a77b35226c5740745d36f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628619226049,
+          "stop" : 1628619231285,
+          "duration" : 5236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f84fb244e8a77b35226c5740745d36f"
+    } ],
+    "uid" : "1e3d638fd3aa4ff50dc1a146f40defdc"
+  } ],
+  "name" : "packages"
+}
