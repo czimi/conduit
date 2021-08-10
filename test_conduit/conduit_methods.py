@@ -3,7 +3,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-email_elotag = "proba_pista+0D"
+username_variable = "0D"
+email_elotag = f"proba_pista_{username_variable}"
 
 def conduit_registration(browser):
     browser.find_element_by_xpath('//a[normalize-space()="Sign up"]').click()
@@ -12,7 +13,7 @@ def conduit_registration(browser):
     password_input = browser.find_element_by_xpath('//input[@placeholder="Password"]')
     signup_btn = browser.find_element_by_xpath('//button[normalize-space()="Sign up"]')
 
-    username_input.send_keys("Próba Pista 0C")
+    username_input.send_keys(f"Próba Pista {username_variable}")
     email_input.send_keys(f"{email_elotag}@proba.com")
     password_input.send_keys("Proba123")
     signup_btn.click()
