@@ -26,6 +26,7 @@ class TestConduitApp(object):
         conduit_registration(self.browser)
         time.sleep(5)
         editor_element = self.browser.find_element_by_xpath("//a[@href='#/editor']")
+        editor_element.click()
         # WebDriverWait(
         #     self.browser, 10).until(
         #     EC.visibility_of_element_located((By.XPATH, "//a[@href='#/editor']"))
