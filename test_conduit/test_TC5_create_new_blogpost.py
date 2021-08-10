@@ -18,8 +18,8 @@ class TestConduitApp(object):
         self.browser = webdriver.Chrome(ChromeDriverManager().install(), options=browser_options)
         self.browser.get("http://localhost:1667/")
 
-    # def teardown(self):
-    #     self.browser.quit()
+    def teardown(self):
+        self.browser.quit()
 
     # TC5 create a new blogpost (precondition: registration of a new user)
     def test_create_new_blogpost(self):
