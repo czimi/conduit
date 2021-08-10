@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class=\"nav-link\"][normalize-space()=\"Próba Pista 0C\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_sign_in",
+        "uid" : "fab88b51d762ad81",
+        "parentUid" : "6a737b95c5e3e7de6a95d99c6d773f60",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628602863708,
+          "stop" : 1628602867744,
+          "duration" : 4036
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a737b95c5e3e7de6a95d99c6d773f60"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_create_new_blogpost",
+        "uid" : "b446a3e3c9220e90",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628602868402,
+          "stop" : 1628602879611,
+          "duration" : 11209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@data-test=\"page-link-1\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_pagination",
+        "uid" : "b3b2d5e0a7fa783",
+        "parentUid" : "0397694e50e6ed6f0d8e76b6e610f468",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628602881131,
+          "stop" : 1628602884084,
+          "duration" : 2953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0397694e50e6ed6f0d8e76b6e610f468"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
