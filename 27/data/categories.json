@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_sign_in",
+        "uid" : "1dc9083d8132bc72",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628585041265,
+          "stop" : 1628585053066,
+          "duration" : 11801
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(@href,\"#/@\")]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_create_new_blogpost",
+        "uid" : "b2329a5c911fe2c6",
+        "parentUid" : "a24713b06dcbcbac9e502a8bf149ce1f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628585054749,
+          "stop" : 1628585055777,
+          "duration" : 1028
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_pagination",
+        "uid" : "c975624a0ff66871",
+        "parentUid" : "a24713b06dcbcbac9e502a8bf149ce1f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628585056423,
+          "stop" : 1628585057382,
+          "duration" : 959
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a24713b06dcbcbac9e502a8bf149ce1f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
