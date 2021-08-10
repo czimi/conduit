@@ -1,3 +1,0 @@
-username: Próba Pista 26,
-email: proba_pista_26@proba.com,
-Password: Proba123
