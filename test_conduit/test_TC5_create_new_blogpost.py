@@ -24,10 +24,12 @@ class TestConduitApp(object):
     # TC5 create a new blogpost (precondition: registration of a new user)
     def test_create_new_blogpost(self):
         conduit_registration(self.browser)
-        WebDriverWait(
-            self.browser, 10).until(
-            EC.visibility_of_element_located((By.XPATH, "//a[@href='#/editor']"))
-        ).click()
+        time.sleep(5)
+        editor_element = self.browser.find_element_by_xpath("//a[@href='#/editor']")
+        # WebDriverWait(
+        #     self.browser, 10).until(
+        #     EC.visibility_of_element_located((By.XPATH, "//a[@href='#/editor']"))
+        # ).click()
 
         time.sleep(3)
         article_title_input = self.browser.find_element_by_xpath('//input[@placeholder="Article Title"]')
