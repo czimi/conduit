@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 email_elotag = "proba_pista+0D"
 
-def registration_and_login_user(browser):
+def conduit_registration(browser):
     browser.find_element_by_xpath('//a[normalize-space()="Sign up"]').click()
     username_input = browser.find_element_by_xpath('//input[@placeholder="Username"]')
     email_input = browser.find_element_by_xpath('//input[@placeholder="Email"]')

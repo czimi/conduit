@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
-from conduit_registration import *
+from conduit_methods import *
 
 class TestConduitApp(object):
 
@@ -19,7 +19,7 @@ class TestConduitApp(object):
     # TC4 Sign in (precondition: registration of a new user)
 
     def test_sign_in(self):
-        registration_and_login_user(self.browser)
+        conduit_registration(self.browser)
         conduit_logout(self.browser)
 
         WebDriverWait(
