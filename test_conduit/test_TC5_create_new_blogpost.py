@@ -25,7 +25,8 @@ class TestConduitApp(object):
     def test_create_new_blogpost(self):
         conduit_registration(self.browser)
         time.sleep(4)
-        self.browser.find_element_by_xpath('//a[@href="#/editor"]').click()
+        element = self.browser.find_element_by_xpath('//a[@href="#/editor"]')
+        element.click()
         time.sleep(3)
         article_title_input = self.browser.find_element_by_xpath('//input[@placeholder="Article Title"]')
         article_about_input = self.browser.find_element_by_xpath('//input[contains(@placeholder,"this article about?")]')
