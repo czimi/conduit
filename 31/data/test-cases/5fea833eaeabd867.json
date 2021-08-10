@@ -1,0 +1,84 @@
+{
+  "uid" : "5fea833eaeabd867",
+  "name" : "test_attach_userdata",
+  "fullName" : "test_conduit.test_TC3_signup_dynamic.TestConduitApp#test_attach_userdata",
+  "historyId" : "2009a8176159c49d52082492a9ee9dd7",
+  "time" : {
+    "start" : 1628599394823,
+    "stop" : 1628599394823,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3f1340a0fada5a0",
+      "name" : "0a6e0b94-5607-4f35-96f3-012eb4a73712-attachment.txt",
+      "source" : "3f1340a0fada5a0.txt",
+      "type" : "text/plain",
+      "size" : 82
+    }, {
+      "uid" : "6b2f2c093621e212",
+      "name" : "log",
+      "source" : "6b2f2c093621e212.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "72edf9aab02b2c6d",
+      "name" : "stderr",
+      "source" : "72edf9aab02b2c6d.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC3_signup_dynamic"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestConduitApp"
+  }, {
+    "name" : "host",
+    "value" : "fv-az28-873"
+  }, {
+    "name" : "thread",
+    "value" : "3923-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_conduit.test_TC3_signup_dynamic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5fea833eaeabd867.json",
+  "parameterValues" : [ ]
+}
