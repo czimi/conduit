@@ -24,23 +24,23 @@ def conduit_registration(browser):
     )
     element.click()
 
+
+    username_link = browser.find_elements_by_xpath('//a[contains(@href,"#/@")]')
+
+    if len(username_link) == 0:
+        element = WebDriverWait(
+            browser, 10).until(
+            EC.visibility_of_element_located((By.XPATH, '//a[@href="#/login"]'))
+        )
+        element.click()
+
+        sign_in_email_input = browser.find_element_by_xpath('//input[@placeholder="Email"]')
+        sign_in_password_input = browser.find_element_by_xpath('//input[@placeholder="Password"]')
+        sign_in_btn = browser.find_element_by_xpath('//button[contains(.,"Sign in")]')
+
+        sign_in_email_input.send_keys(f"proba_pista_{email_elotag}@proba.com")
+        sign_in_password_input.send_keys("Proba123")
+        sign_in_btn.click()
+
 def conduit_logout(browser):
     browser.find_element_by_xpath('//a[@active-class="active"]').click()
-
-    # username_link = browser.find_elements_by_xpath('//a[contains(@href,"#/@")]')
-
-    # if len(username_link) == 0:
-    #     element = WebDriverWait(
-    #         browser, 10).until(
-    #         EC.visibility_of_element_located((By.XPATH, '//a[@href="#/login"]'))
-    #     )
-    #     element.click()
-    #
-    #     sign_in_email_input = browser.find_element_by_xpath('//input[@placeholder="Email"]')
-    #     sign_in_password_input = browser.find_element_by_xpath('//input[@placeholder="Password"]')
-    #     sign_in_btn = browser.find_element_by_xpath('//button[contains(.,"Sign in")]')
-    #
-    #     sign_in_email_input.send_keys(f"proba_pista_{email_elotag}@proba.com")
-    #     sign_in_password_input.send_keys("Proba123")
-    #     sign_in_btn.click()
-
