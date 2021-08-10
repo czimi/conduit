@@ -16,7 +16,7 @@ class TestConduitApp(object):
         browser_options.headless = True
         self.browser = webdriver.Chrome(ChromeDriverManager().install(), options=browser_options)
         self.browser.get("http://localhost:1667/")
-        self.user_variable = random.randint(1, 100)
+        self.user_variable = random.randint(1, 10000)
 
     def teardown(self):
         self.browser.quit()

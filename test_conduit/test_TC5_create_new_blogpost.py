@@ -4,7 +4,7 @@ import random
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
-from conduit_registration import *
+from conduit_methods import *
 
 datetime_now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 article_number = random.randint(1, 100)
@@ -14,16 +14,16 @@ class TestConduitApp(object):
 
     def setup(self):
         browser_options = Options()
-        browser_options.headless = True
+        browser_options.headless = False
         self.browser = webdriver.Chrome(ChromeDriverManager().install(), options=browser_options)
         self.browser.get("http://localhost:1667/")
 
-    def teardown(self):
-        self.browser.quit()
+    # def teardown(self):
+    #     self.browser.quit()
 
     # TC5 create a new blogpost (precondition: registration of a new user)
     def test_create_new_blogpost(self):
-        registration_and_login_user(self.browser)
+        conduit_registration(self.browser)
         time.sleep(2)
         self.browser.find_element_by_xpath('//a[@href="#/editor"]').click()
         time.sleep(3)

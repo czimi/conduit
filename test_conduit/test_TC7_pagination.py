@@ -2,7 +2,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
-from conduit_registration import *
+from conduit_methods import *
 
 
 class TestConduitApp(object):
@@ -18,7 +18,7 @@ class TestConduitApp(object):
 
     # TC7 Pagination on Conduit (precondition: registration of a new user)
     def test_pagination(self):
-        registration_and_login_user(self.browser)
+        conduit_registration(self.browser)
         time.sleep(2)
         page_1 = self.browser.find_element_by_xpath('//li[@data-test="page-link-1"]')
         assert page_1.get_attribute("class") == "page-item active"
