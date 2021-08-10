@@ -27,4 +27,4 @@ class TestConduitApp(object):
         logout_element.click()
 
         sign_in_link = self.browser.find_element_by_xpath('//a[@href="#/login"]')
-        assert sign_in_link.is_enabled(self)
+        assert sign_in_link.is_enabled()
