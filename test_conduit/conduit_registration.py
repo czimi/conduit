@@ -12,7 +12,7 @@ def registration_and_login_user(browser):
     signup_btn = browser.find_element_by_xpath('//button[normalize-space()="Sign up"]')
 
     username_input.send_keys("Próba Pista 0")
-    email_input.send_keys("proba_pista_0Y@proba.com")
+    email_input.send_keys("proba_pista_0@proba.com")
     password_input.send_keys("Proba123")
     signup_btn.click()
 
@@ -37,6 +37,6 @@ def registration_and_login_user(browser):
         sign_in_password_input = browser.find_element_by_xpath('//input[@placeholder="Password"]')
         sign_in_btn = browser.find_element_by_xpath('//button[contains(.,"Sign in")]')
 
-        sign_in_email_input.send_keys("proba_pista_0Y@proba.com")
+        sign_in_email_input.send_keys("proba_pista_0@proba.com")
         sign_in_password_input.send_keys("Proba123")
         sign_in_btn.click()
