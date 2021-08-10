@@ -18,7 +18,7 @@ class TestConduitApp(object):
 
     # TC7 Pagination on Conduit (precondition: registration of a new user)
     def test_pagination(self):
-        conduit_registration(self.browser)
+        conduit_login(self.browser)
         time.sleep(4)
         page_1 = self.browser.find_element_by_xpath('//li[@data-test="page-link-1"]')
         assert page_1.get_attribute("class") == "page-item active"
