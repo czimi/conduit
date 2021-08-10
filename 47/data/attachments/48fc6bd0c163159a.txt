@@ -1,3 +1,0 @@
-username: Próba Pista A8819,
-email: proba_pista_A8819@proba.com,
-Password: Proba123

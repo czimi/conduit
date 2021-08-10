@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class=\"swal-button swal-button--confirm\">...</button> is not clickable at point (525, 378). Other element would receive the click: <div class=\"swal-footer\">...</div>\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_sign_in",
+        "uid" : "d58623454038f564",
+        "parentUid" : "90ade2d633517b96c96fe61997fe5d3c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628636310621,
+          "stop" : 1628636312593,
+          "duration" : 1972
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "90ade2d633517b96c96fe61997fe5d3c"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder=\"Email\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_create_new_blogpost",
+        "uid" : "15a1854244c0185a",
+        "parentUid" : "bb8b4bde82c45ad9c58c2fbd7facea99",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628636315955,
+          "stop" : 1628636315971,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_pagination",
+        "uid" : "6235574dc9a1897b",
+        "parentUid" : "bb8b4bde82c45ad9c58c2fbd7facea99",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628636317636,
+          "stop" : 1628636317652,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bb8b4bde82c45ad9c58c2fbd7facea99"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
