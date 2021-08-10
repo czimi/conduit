@@ -1,9 +1,11 @@
 import time
+import allure
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
 from conduit_methods import *
+
 
 class TestConduitApp(object):
 
@@ -36,7 +38,13 @@ class TestConduitApp(object):
         sign_in_btn.click()
         time.sleep(2)
 
-        username_link = self.browser.find_element_by_xpath(f'//a[@class="nav-link"][normalize-space()="Próba Pista {username_variable}"]')
+        username_link = self.browser.find_element_by_xpath(
+            f'//a[@class="nav-link"][normalize-space()="Próba Pista {username_variable}"]')
         assert username_link.text == f'Próba Pista {username_variable}'
 
         conduit_logout(self.browser)
+
+    def test_attach_userdata(self):
+        allure.attach(
+            f"username: Próba Pista {username_variable},\nemail: {email_elotag}@proba.com,\nPassword: Proba123",
+            attachment_type=allure.attachment_type.TEXT)
