@@ -59,4 +59,5 @@ def conduit_login(browser):
 
 
 def conduit_logout(browser):
-    browser.find_element_by_xpath("//a[@active-class='active']").click()
+    logout_element = browser.find_element_by_xpath("//a[@active-class='active']")
+    logout_element.click()
