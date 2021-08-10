@@ -1,9 +1,11 @@
 # Precondition of all TCs':
+import random
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-username_variable = "0E"
+user_variable_num = random.randint(1, 10000)
+username_variable = f"A{user_variable_num}"
 email_elotag = f"proba_pista_{username_variable}"
 
 def conduit_registration(browser):
