@@ -19,7 +19,7 @@ class TestConduitApp(object):
     # TC4 Sign in (precondition: registration of a new user)
 
     def test_sign_in(self):
-        registration_user(self.browser)
+        registration_and_login_user(self.browser)
 
         WebDriverWait(
             self.browser, 10).until(
