@@ -8,6 +8,7 @@ user_variable_num = random.randint(1, 10000)
 username_variable = f"A{user_variable_num}"
 email_elotag = f"proba_pista_{username_variable}"
 
+
 def conduit_registration(browser):
     browser.find_element_by_xpath('//a[normalize-space()="Sign up"]').click()
     username_input = browser.find_element_by_xpath('//input[@placeholder="Username"]')
@@ -26,7 +27,6 @@ def conduit_registration(browser):
     )
     element.click()
 
-
     username_link = browser.find_elements_by_xpath('//a[contains(@href,"#/@")]')
 
     if len(username_link) == 0:
@@ -44,5 +44,6 @@ def conduit_registration(browser):
         sign_in_password_input.send_keys("Proba123")
         sign_in_btn.click()
 
+
 def conduit_logout(browser):
-    browser.find_element_by_xpath('//a[@active-class="active"]').click()
+    browser.find_element_by_xpath("//a[@active-class='active']").click()
