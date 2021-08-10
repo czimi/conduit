@@ -30,11 +30,11 @@ def conduit_registration(browser):
     username_link = browser.find_elements_by_xpath('//a[contains(@href,"#/@")]')
 
     if len(username_link) == 0:
-        element = WebDriverWait(
+        login_element = WebDriverWait(
             browser, 10).until(
             EC.visibility_of_element_located((By.XPATH, '//a[@href="#/login"]'))
         )
-        element.click()
+        login_element.click()
 
         sign_in_email_input = browser.find_element_by_xpath('//input[@placeholder="Email"]')
         sign_in_password_input = browser.find_element_by_xpath('//input[@placeholder="Password"]')
