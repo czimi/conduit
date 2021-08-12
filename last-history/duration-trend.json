@@ -1,8 +1,6 @@
 [ {
-  "buildOrder" : 56,
-  "reportUrl" : "https://czimi.github.io/conduit/56/",
+  "buildOrder" : 57,
+  "reportUrl" : "https://czimi.github.io/conduit/57/",
   "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 70877
-  }
+  "data" : { }
 } ]
