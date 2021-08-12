@@ -1,5 +1,5 @@
 import time
-import bcrypt
+# import bcrypt
 import allure
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -46,9 +46,9 @@ class TestConduitApp(object):
         conduit_logout(self.browser)
 
     def test_attach_userdata(self):
-        passwd = b'Proba123'
-        salt = bcrypt.gensalt()
-        hashed_passwd = bcrypt.hashpw(passwd, salt)
+        # passwd = b'Proba123'
+        # salt = bcrypt.gensalt()
+        # hashed_passwd = bcrypt.hashpw(passwd, salt)
         allure.attach(
-            f"username: Próba Pista {username_variable},\nemail: {email_elotag}@proba.com,\nPassword: {hashed_passwd}",
+            f"username: Próba Pista {username_variable},\nemail: {email_elotag}@proba.com,\nPassword: ",
             attachment_type=allure.attachment_type.TEXT)
