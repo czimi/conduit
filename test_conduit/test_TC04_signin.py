@@ -1,4 +1,5 @@
 import time
+import bcrypt
 import allure
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -11,7 +12,7 @@ class TestConduitApp(object):
 
     def setup(self):
         browser_options = Options()
-        browser_options.headless = True
+        browser_options.headless = False
         self.browser = webdriver.Chrome(ChromeDriverManager().install(), options=browser_options)
         self.browser.get("http://localhost:1667/")
 
@@ -45,6 +46,9 @@ class TestConduitApp(object):
         conduit_logout(self.browser)
 
     def test_attach_userdata(self):
+        passwd = b'Proba123'
+        salt = bcrypt.gensalt()
+        hashed_passwd = bcrypt.hashpw(passwd, salt)
         allure.attach(
-            f"username: Próba Pista {username_variable},\nemail: {email_elotag}@proba.com,\nPassword: Proba123",
+            f"username: Próba Pista {username_variable},\nemail: {email_elotag}@proba.com,\nPassword: {hashed_passwd}",
             attachment_type=allure.attachment_type.TEXT)
