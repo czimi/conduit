@@ -1,0 +1,101 @@
+[ {
+  "uid" : "8e4523d0f146420c",
+  "name" : "test_registration_wrong_pw",
+  "time" : {
+    "start" : 1628797063226,
+    "stop" : 1628797065675,
+    "duration" : 2449
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e65b918a80f11646",
+  "name" : "test_accept_cookies",
+  "time" : {
+    "start" : 1628797057588,
+    "stop" : 1628797061641,
+    "duration" : 4053
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dda0e5f24986fa60",
+  "name" : "test_save_article_text",
+  "time" : {
+    "start" : 1628797046472,
+    "stop" : 1628797052989,
+    "duration" : 6517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9499930826ea745",
+  "name" : "test_create_new_blogpost",
+  "time" : {
+    "start" : 1628797069946,
+    "stop" : 1628797090351,
+    "duration" : 20405
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd6044cd6e4567f8",
+  "name" : "test_sign_in",
+  "time" : {
+    "start" : 1628797036165,
+    "stop" : 1628797042945,
+    "duration" : 6780
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f596b1d453b8085d",
+  "name" : "test_pagination",
+  "time" : {
+    "start" : 1628797091999,
+    "stop" : 1628797098412,
+    "duration" : 6413
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18f6ed0388c07ce2",
+  "name" : "test_attach_userdata",
+  "time" : {
+    "start" : 1628797044573,
+    "stop" : 1628797044852,
+    "duration" : 279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cd1c04f733f4582",
+  "name" : "test_log_out",
+  "time" : {
+    "start" : 1628797054572,
+    "stop" : 1628797056979,
+    "duration" : 2407
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9601a851e25da96a",
+  "name" : "test_attach_userdata",
+  "time" : {
+    "start" : 1628797069355,
+    "stop" : 1628797069356,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d13eafef3893b7e4",
+  "name" : "test_registration_dynamic_userdata",
+  "time" : {
+    "start" : 1628797066262,
+    "stop" : 1628797067757,
+    "duration" : 1495
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
