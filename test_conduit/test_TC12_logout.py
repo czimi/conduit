@@ -19,7 +19,7 @@ class TestConduitApp(object):
     # TC12 Logout (precondition: registration of a new user)
 
     def test_log_out(self):
-        conduit_registration(self.browser)
+        conduit_login(self.browser)
         logout_element = WebDriverWait(
             self.browser, 10).until(
             EC.visibility_of_element_located((By.XPATH, '//a[@active-class="active"]'))
