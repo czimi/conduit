@@ -1,0 +1,101 @@
+[ {
+  "uid" : "2805155a4be86aff",
+  "name" : "test_save_article_text",
+  "time" : {
+    "start" : 1628795143628,
+    "stop" : 1628795150092,
+    "duration" : 6464
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "844e310fc3c5f2ea",
+  "name" : "test_log_out",
+  "time" : {
+    "start" : 1628795151683,
+    "stop" : 1628795162879,
+    "duration" : 11196
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5f55f08506688db6",
+  "name" : "test_create_new_blogpost",
+  "time" : {
+    "start" : 1628795177986,
+    "stop" : 1628795198366,
+    "duration" : 20380
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e950d25cbc5b749",
+  "name" : "test_attach_userdata",
+  "time" : {
+    "start" : 1628795176417,
+    "stop" : 1628795176418,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cf59b44a64a7e27",
+  "name" : "test_pagination",
+  "time" : {
+    "start" : 1628795199951,
+    "stop" : 1628795206379,
+    "duration" : 6428
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36c1e861cb98c9cb",
+  "name" : "test_registration_wrong_pw",
+  "time" : {
+    "start" : 1628795170233,
+    "stop" : 1628795172721,
+    "duration" : 2488
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "696c4e5b69ccb1b8",
+  "name" : "test_registration_dynamic_userdata",
+  "time" : {
+    "start" : 1628795173299,
+    "stop" : 1628795174844,
+    "duration" : 1545
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9cda73c21a7a5a1",
+  "name" : "test_attach_userdata",
+  "time" : {
+    "start" : 1628795143029,
+    "stop" : 1628795143030,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "946461c2aee8f23e",
+  "name" : "test_sign_in",
+  "time" : {
+    "start" : 1628795135502,
+    "stop" : 1628795141457,
+    "duration" : 5955
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d63b15cd2ed0e88",
+  "name" : "test_accept_cookies",
+  "time" : {
+    "start" : 1628795164558,
+    "stop" : 1628795168617,
+    "duration" : 4059
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
