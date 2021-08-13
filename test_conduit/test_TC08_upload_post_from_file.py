@@ -21,10 +21,11 @@ class TestConduitApp(object):
     def test_create_new_blogposts_from_file(self):
         conduit_login(self.browser)
         time.sleep(3)
+        self.browser.maximize_window()
 
         csv_about_content_list = []
 
-        with open('test_conduit/data_for_auto_upload.csv', 'r', encoding="utf-8") as upload_file:
+        with open('data_for_auto_upload.csv', 'r', encoding="utf-8") as upload_file:
             csv_reader = csv.reader(upload_file, delimiter=';')
             next(csv_reader)
             for row in csv_reader:
@@ -44,8 +45,9 @@ class TestConduitApp(object):
                 article_tag_input.send_keys(input_elements[3])
                 csv_about_content_list.append(input_elements[1])
 
-                self.browser.find_element_by_xpath('//button[contains(.,"Publish Article")]').click()
+                publish_btn = self.browser.find_element_by_xpath('//button[@class="btn btn-lg pull-xs-right btn-primary"]')
+                publish_btn.click()
                 time.sleep(3)
 
-                uploaded_articles_about = self.browser.find_elements_by_xpath(f'//a[@href="#/@Próba Pista {username_variable}/"]//parent::div//following-sibling::a/p')
-                assert csv_about_content_list == uploaded_articles_about
+                uploaded_articles_about = self.browser.find_element_by_xpath('//h1')
+                assert uploaded_articles_about.text == input_elements[0]
