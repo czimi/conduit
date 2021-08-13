@@ -1,0 +1,121 @@
+[ {
+  "uid" : "46d1bc15d7c1360d",
+  "name" : "test_registration_dynamic_userdata",
+  "time" : {
+    "start" : 1628840012838,
+    "stop" : 1628840016309,
+    "duration" : 3471
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11b0ddd50f15c21c",
+  "name" : "test_attach_userdata",
+  "time" : {
+    "start" : 1628840017903,
+    "stop" : 1628840018251,
+    "duration" : 348
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "346880cc5b16331a",
+  "name" : "test_pagination",
+  "time" : {
+    "start" : 1628840038072,
+    "stop" : 1628840044395,
+    "duration" : 6323
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "87a2285889c5e575",
+  "name" : "test_save_article_text",
+  "time" : {
+    "start" : 1628840061852,
+    "stop" : 1628840068327,
+    "duration" : 6475
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "644ba836435d47d2",
+  "name" : "test_create_new_blogposts_from_file",
+  "time" : {
+    "start" : 1628840046001,
+    "stop" : 1628840060232,
+    "duration" : 14231
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2b249d8165d7958",
+  "name" : "test_attach_userdata",
+  "time" : {
+    "start" : 1628840019970,
+    "stop" : 1628840019970,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7dc1ed532adfa131",
+  "name" : "test_list_all_posts_of_testuser2",
+  "time" : {
+    "start" : 1628840032087,
+    "stop" : 1628840036436,
+    "duration" : 4349
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "95b138d49e7658b3",
+  "name" : "test_create_new_blogpost",
+  "time" : {
+    "start" : 1628840023115,
+    "stop" : 1628840030433,
+    "duration" : 7318
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "afbf3466e00f78aa",
+  "name" : "test_accept_cookies",
+  "time" : {
+    "start" : 1628840005019,
+    "stop" : 1628840009079,
+    "duration" : 4060
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bad0c90f839f4bb5",
+  "name" : "test_sign_in",
+  "time" : {
+    "start" : 1628840018309,
+    "stop" : 1628840018309,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f9561fcaafbbdd51",
+  "name" : "test_registration_wrong_pw",
+  "time" : {
+    "start" : 1628840009721,
+    "stop" : 1628840012218,
+    "duration" : 2497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cec5d91d9e16765",
+  "name" : "test_log_out",
+  "time" : {
+    "start" : 1628840069932,
+    "stop" : 1628840072361,
+    "duration" : 2429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
