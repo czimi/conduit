@@ -1,0 +1,3 @@
+username: Próba Pista C0,
+email: proba_pista_C0@proba.com,
+Password: b'$2b$12$EiITnQzJH5LSjlh71ajR4egptjR2nW3Ls3fJISU2xlaYtRNPnnhnu'
