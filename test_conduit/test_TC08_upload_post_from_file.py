@@ -47,5 +47,5 @@ class TestConduitApp(object):
                 self.browser.find_element_by_xpath('//button[contains(.,"Publish Article")]').click()
                 time.sleep(3)
 
-                uploaded_articles_about = self.browser.find_elements_by_xpath('//a[@href=f"#/@Próba Pista {username_variable}/"]//parent::div//following-sibling::a/p')
+                uploaded_articles_about = self.browser.find_elements_by_xpath(f'//a[@href="#/@Próba Pista {username_variable}/"]//parent::div//following-sibling::a/p')
                 assert csv_about_content_list == uploaded_articles_about
