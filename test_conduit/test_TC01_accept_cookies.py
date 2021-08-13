@@ -16,7 +16,7 @@ class TestConduitApp(object):
     def teardown(self):
         self.browser.quit()
 
-# TC1 accept cookies
+# TC01 accept cookies
     @allure.severity(allure.severity_level.NORMAL)
     def test_accept_cookies(self):
         time.sleep(2)
