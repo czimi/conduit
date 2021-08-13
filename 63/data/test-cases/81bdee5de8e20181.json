@@ -1,0 +1,84 @@
+{
+  "uid" : "81bdee5de8e20181",
+  "name" : "test_attach_userdata",
+  "fullName" : "test_conduit.test_TC03_signup_dynamic.TestConduitApp#test_attach_userdata",
+  "historyId" : "d9e68427026c256d44417575117f365d",
+  "time" : {
+    "start" : 1628841100630,
+    "stop" : 1628841100957,
+    "duration" : 327
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6d6bcd0120d6056c",
+      "name" : "d9684ea6-3344-4f52-bf34-16bd6d8f0487-attachment.txt",
+      "source" : "6d6bcd0120d6056c.txt",
+      "type" : "text/plain",
+      "size" : 137
+    }, {
+      "uid" : "48c03f42acb3eaa9",
+      "name" : "log",
+      "source" : "48c03f42acb3eaa9.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "845079cdbb332a53",
+      "name" : "stderr",
+      "source" : "845079cdbb332a53.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC03_signup_dynamic"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestConduitApp"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-94"
+  }, {
+    "name" : "thread",
+    "value" : "3768-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_conduit.test_TC03_signup_dynamic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81bdee5de8e20181.json",
+  "parameterValues" : [ ]
+}

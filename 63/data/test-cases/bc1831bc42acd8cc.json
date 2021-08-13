@@ -1,0 +1,86 @@
+{
+  "uid" : "bc1831bc42acd8cc",
+  "name" : "test_list_all_posts_of_testuser2",
+  "fullName" : "test_conduit.test_TC06_listing.TestConduitApp#test_list_all_posts_of_testuser2",
+  "historyId" : "12fc43808dca8baf146537858f9343db",
+  "time" : {
+    "start" : 1628841131869,
+    "stop" : 1628841139561,
+    "duration" : 7692
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert ['ultrices vi...us turpis in'] == ['consectetur...da quis', ...]\n  At index 0 diff: 'ultrices vitae auctor eu.' != 'consectetur adipiscing elit'\n  Right contains 10 more items, first extra item: 'Id leo in vitae turpis massa.'\n  Use -v to get the full diff",
+  "statusTrace" : "self = <test_TC06_listing.TestConduitApp object at 0x7fd7439d3970>\n\n    def test_list_all_posts_of_testuser2(self):\n        conduit_login(self.browser)\n        time.sleep(2)\n    \n        list_testuser2_articles_about_main = self.browser.find_elements_by_xpath('//a[@href=\"#/@testuser2/\"]//parent::div//following-sibling::a/p')\n    \n        for i in range(len(list_testuser2_articles_about_main)):\n           self.content_testuser2_articles_about_main.append(list_testuser2_articles_about_main[i].text)\n    \n        self.browser.find_element_by_xpath('//a[@href=\"#/@testuser2/\"][@class=\"author\"]').click()\n        time.sleep(3)\n    \n        list_testuser2_articles_about_user = self.browser.find_elements_by_xpath('//p[normalize-space()]')\n    \n        for i in range(len(list_testuser2_articles_about_user)):\n            self.content_testuser2_articles_about_user.append(list_testuser2_articles_about_user[i].text)\n    \n>       assert self.content_testuser2_articles_about_main == self.content_testuser2_articles_about_user\nE       AssertionError: assert ['ultrices vi...us turpis in'] == ['consectetur...da quis', ...]\nE         At index 0 diff: 'ultrices vitae auctor eu.' != 'consectetur adipiscing elit'\nE         Right contains 10 more items, first extra item: 'Id leo in vitae turpis massa.'\nE         Use -v to get the full diff\n\ntest_conduit/test_TC06_listing.py:42: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert ['ultrices vi...us turpis in'] == ['consectetur...da quis', ...]\n  At index 0 diff: 'ultrices vitae auctor eu.' != 'consectetur adipiscing elit'\n  Right contains 10 more items, first extra item: 'Id leo in vitae turpis massa.'\n  Use -v to get the full diff",
+    "statusTrace" : "self = <test_TC06_listing.TestConduitApp object at 0x7fd7439d3970>\n\n    def test_list_all_posts_of_testuser2(self):\n        conduit_login(self.browser)\n        time.sleep(2)\n    \n        list_testuser2_articles_about_main = self.browser.find_elements_by_xpath('//a[@href=\"#/@testuser2/\"]//parent::div//following-sibling::a/p')\n    \n        for i in range(len(list_testuser2_articles_about_main)):\n           self.content_testuser2_articles_about_main.append(list_testuser2_articles_about_main[i].text)\n    \n        self.browser.find_element_by_xpath('//a[@href=\"#/@testuser2/\"][@class=\"author\"]').click()\n        time.sleep(3)\n    \n        list_testuser2_articles_about_user = self.browser.find_elements_by_xpath('//p[normalize-space()]')\n    \n        for i in range(len(list_testuser2_articles_about_user)):\n            self.content_testuser2_articles_about_user.append(list_testuser2_articles_about_user[i].text)\n    \n>       assert self.content_testuser2_articles_about_main == self.content_testuser2_articles_about_user\nE       AssertionError: assert ['ultrices vi...us turpis in'] == ['consectetur...da quis', ...]\nE         At index 0 diff: 'ultrices vitae auctor eu.' != 'consectetur adipiscing elit'\nE         Right contains 10 more items, first extra item: 'Id leo in vitae turpis massa.'\nE         Use -v to get the full diff\n\ntest_conduit/test_TC06_listing.py:42: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3ab31e3f76a340f9",
+      "name" : "log",
+      "source" : "3ab31e3f76a340f9.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "97ed96c8d9878c35",
+      "name" : "stderr",
+      "source" : "97ed96c8d9878c35.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC06_listing"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestConduitApp"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-94"
+  }, {
+    "name" : "thread",
+    "value" : "3768-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_conduit.test_TC06_listing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bc1831bc42acd8cc.json",
+  "parameterValues" : [ ]
+}
