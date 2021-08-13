@@ -1,0 +1,3 @@
+username: Próba Pista 5522,
+email: proba_pista_5522@proba.com,
+Password: b'$2b$12$Vd1b7h0vnRxAZCDrhfPY0O.g31RqBQN6pkqxbAjeo0tJCqVh/exPS'

@@ -1,0 +1,84 @@
+{
+  "uid" : "42601333ba296bdd",
+  "name" : "test_attach_userdata",
+  "fullName" : "test_conduit.test_TC03_signup_dynamic.TestConduitApp#test_attach_userdata",
+  "historyId" : "d9e68427026c256d44417575117f365d",
+  "time" : {
+    "start" : 1628889825389,
+    "stop" : 1628889825698,
+    "duration" : 309
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "71d136a847e28433",
+      "name" : "0857d22d-887d-48b5-93e5-350d6cef45b1-attachment.txt",
+      "source" : "71d136a847e28433.txt",
+      "type" : "text/plain",
+      "size" : 137
+    }, {
+      "uid" : "848e3329ac46708c",
+      "name" : "log",
+      "source" : "848e3329ac46708c.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "572ce8cb0b2f40cb",
+      "name" : "stderr",
+      "source" : "572ce8cb0b2f40cb.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC03_signup_dynamic"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestConduitApp"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-600"
+  }, {
+    "name" : "thread",
+    "value" : "3670-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_conduit.test_TC03_signup_dynamic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42601333ba296bdd.json",
+  "parameterValues" : [ ]
+}
