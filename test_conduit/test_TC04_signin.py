@@ -23,6 +23,7 @@ class TestConduitApp(object):
 
     def test_sign_in(self):
         conduit_registration(self.browser)
+        time.sleep(2)
         logout_element = self.browser.find_element_by_xpath("//a[@active-class='active']")
         if logout_element.is_enabled():
             conduit_logout(self.browser)
@@ -31,7 +32,7 @@ class TestConduitApp(object):
             self.browser, 10).until(
             EC.visibility_of_element_located((By.XPATH, '//a[@href="#/login"]'))
         ).click()
-
+        time.sleep(2)
         sign_in_email_input = self.browser.find_element_by_xpath('//input[@placeholder="Email"]')
         sign_in_password_input = self.browser.find_element_by_xpath('//input[@placeholder="Password"]')
         sign_in_btn = self.browser.find_element_by_xpath('//button[contains(.,"Sign in")]')
