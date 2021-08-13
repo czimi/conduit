@@ -35,3 +35,5 @@ class TestConduitApp(object):
         update_confirm_btn.click()
         new_username_link = self.browser.find_element_by_xpath(f'//a[@class="nav-link"][contains(.,"Próba Pista {username_variable}C")]')
         assert new_username_link.is_displayed()
+        username_reset(self.browser)
+
