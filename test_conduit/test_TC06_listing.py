@@ -38,5 +38,5 @@ class TestConduitApp(object):
 
         for i in range(len(list_testuser2_articles_about_user)):
             self.content_testuser2_articles_about_user.append(list_testuser2_articles_about_user[i].text)
-
-        assert self.content_testuser2_articles_about_main == self.content_testuser2_articles_about_user
+            if self.content_testuser2_articles_about_user[i] in self.content_testuser2_articles_about_main:
+                assert True
