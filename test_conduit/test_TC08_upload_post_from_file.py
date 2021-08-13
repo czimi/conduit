@@ -19,7 +19,7 @@ class TestConduitApp(object):
 
     # TC8 create new blogposts from csv file (precondition: registration of a new user)
     def test_create_new_blogposts_from_file(self):
-        conduit_registration(self.browser)
+        conduit_login(self.browser)
         time.sleep(3)
 
         csv_about_content_list = []
@@ -49,5 +49,3 @@ class TestConduitApp(object):
 
                 uploaded_articles_about = self.browser.find_elements_by_xpath('//a[@href=f"#/@Próba Pista {username_variable}/"]//parent::div//following-sibling::a/p')
                 assert csv_about_content_list == uploaded_articles_about
-
-# //a[@href=f"#/@Próba Pista {username_variable}/"]//parent::div//following-sibling::a/p
