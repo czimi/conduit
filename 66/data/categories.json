@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'data_for_auto_upload.csv'",
+      "children" : [ {
+        "name" : "test_create_new_blogposts_from_file",
+        "uid" : "832280100feb22a9",
+        "parentUid" : "c6337602274a816e2738cd1972c57329",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628848800422,
+          "stop" : 1628848805795,
+          "duration" : 5373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c6337602274a816e2738cd1972c57329"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
