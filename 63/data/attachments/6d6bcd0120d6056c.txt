@@ -1,3 +1,0 @@
-username: Próba Pista 8583,
-email: proba_pista_8583@proba.com,
-Password: b'$2b$12$43sOZ8ms2a0rYchXgl8A9OQiTYg49e7i5xfm7PmJsQk3jITTOpvWu'
