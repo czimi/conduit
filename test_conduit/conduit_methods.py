@@ -49,13 +49,10 @@ def conduit_logout(browser):
 
 
 def create_comment(browser):
-    testuser3_link = browser.find_element_by_xpath('//a[normalize-space()="testuser3"]')
-    testuser3_link.click()
-    read_more_element = WebDriverWait(
-        browser, 10).until(
-        EC.visibility_of_element_located((By.XPATH, '//span[normalize-space()="Read more..."]'))
-    )
-    read_more_element.click()
+    browser.find_element_by_xpath('//button[contains(@class, "accept")]').click()
+    testuser3_read_more_link = browser.find_element_by_xpath('//a[@href="#/articles/Laoreet-suspendisse-interdum"]//span[contains(text(),"Read more...")]')
+    testuser3_read_more_link.click()
+
     comment_input = WebDriverWait(
         browser, 10).until(
         EC.visibility_of_element_located((By.XPATH, '//textarea[@placeholder = "Write a comment..."]'))
