@@ -1,0 +1,84 @@
+{
+  "uid" : "58f2d4e41a104f20",
+  "name" : "test_registration_wrong_pw",
+  "fullName" : "test_conduit.test_TC02_signup_wrong_pwd.TestConduitApp#test_registration_wrong_pw",
+  "historyId" : "88123749ee9a05325efb25f3d85c606b",
+  "time" : {
+    "start" : 1628889720610,
+    "stop" : 1628889723378,
+    "duration" : 2768
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2008f051f2360df5",
+      "name" : "Passwordfailure",
+      "source" : "2008f051f2360df5.png",
+      "type" : "image/png",
+      "size" : 48794
+    }, {
+      "uid" : "2074b5cbccb37425",
+      "name" : "log",
+      "source" : "2074b5cbccb37425.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "8adbe25a52a8dc89",
+      "name" : "stderr",
+      "source" : "8adbe25a52a8dc89.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC02_signup_wrong_pwd"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestConduitApp"
+  }, {
+    "name" : "host",
+    "value" : "fv-az81-606"
+  }, {
+    "name" : "thread",
+    "value" : "3787-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_conduit.test_TC02_signup_wrong_pwd"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "58f2d4e41a104f20.json",
+  "parameterValues" : [ ]
+}
