@@ -12,10 +12,9 @@ class TestConduitApp(object):
 
     def setup(self):
         browser_options = Options()
-        browser_options.headless = True
+        browser_options.headless = False
         self.browser = webdriver.Chrome(ChromeDriverManager().install(), options=browser_options)
         self.browser.get("http://localhost:1667/")
-        self. logout_element = self.browser.find_element_by_xpath("//a[@active-class='active']")
 
     def teardown(self):
         self.browser.quit()
@@ -24,7 +23,8 @@ class TestConduitApp(object):
 
     def test_sign_in(self):
         conduit_registration(self.browser)
-        if self.logout_element.is_enabled():
+        logout_element = self.browser.find_element_by_xpath("//a[@active-class='active']")
+        if logout_element.is_enabled():
             conduit_logout(self.browser)
 
         WebDriverWait(
