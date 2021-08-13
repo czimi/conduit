@@ -1,0 +1,86 @@
+{
+  "uid" : "eb48a66326175201",
+  "name" : "test_create_new_blogposts_from_file",
+  "fullName" : "test_conduit.test_TC08_upload_post_from_file.TestConduitApp#test_create_new_blogposts_from_file",
+  "historyId" : "6d8522a273f6bbb6639dd8afc50ee8f9",
+  "time" : {
+    "start" : 1628836466697,
+    "stop" : 1628836470556,
+    "duration" : 3859
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'data_for_auto_upload.csv'",
+  "statusTrace" : "self = <test_TC08_upload_post_from_file.TestConduitApp object at 0x7f339d33d8e0>\n\n    def test_create_new_blogposts_from_file(self):\n        conduit_registration(self.browser)\n        time.sleep(3)\n    \n        csv_about_content_list = []\n    \n>       with open('data_for_auto_upload.csv', 'r', encoding=\"utf-8\") as upload_file:\nE       FileNotFoundError: [Errno 2] No such file or directory: 'data_for_auto_upload.csv'\n\ntest_conduit/test_TC08_upload_post_from_file.py:27: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'data_for_auto_upload.csv'",
+    "statusTrace" : "self = <test_TC08_upload_post_from_file.TestConduitApp object at 0x7f339d33d8e0>\n\n    def test_create_new_blogposts_from_file(self):\n        conduit_registration(self.browser)\n        time.sleep(3)\n    \n        csv_about_content_list = []\n    \n>       with open('data_for_auto_upload.csv', 'r', encoding=\"utf-8\") as upload_file:\nE       FileNotFoundError: [Errno 2] No such file or directory: 'data_for_auto_upload.csv'\n\ntest_conduit/test_TC08_upload_post_from_file.py:27: FileNotFoundError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ff9346b6c65b3088",
+      "name" : "log",
+      "source" : "ff9346b6c65b3088.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "c1bc26a57bde676b",
+      "name" : "stderr",
+      "source" : "c1bc26a57bde676b.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC08_upload_post_from_file"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestConduitApp"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-798"
+  }, {
+    "name" : "thread",
+    "value" : "3771-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_conduit.test_TC08_upload_post_from_file"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "eb48a66326175201.json",
+  "parameterValues" : [ ]
+}
