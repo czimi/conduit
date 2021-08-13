@@ -4,9 +4,6 @@ from allure_commons.types import AttachmentType
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from conduit_methods import *
 
 class TestConduitApp(object):
@@ -24,16 +21,17 @@ class TestConduitApp(object):
 
     def test_delete_comment(self):
         conduit_login(self.browser)
-        time.sleep(2)
-        self.browser.maximize_window()
-        time.sleep(2)
+        time.sleep(4)
         user_name = self.browser.find_element_by_xpath('//a[@class="nav-link"][contains(.,"Próba Pista")]').text
         create_comment(self.browser)
+        time.sleep(2)
+        allure.attach(self.browser.get_screenshot_as_png(), name="Created_comment", attachment_type=AttachmentType.PNG)
 
         comment = self.browser.find_element_by_xpath(f'//div[@class="card-footer"][contains(.,"{user_name}")]//parent::div[@class="card"]//p[@class="card-text"]')
         assert comment.text == 'Test comment.'
         delete_comment_btn = self.browser.find_element_by_xpath('//i[@class="ion-trash-a"]')
         delete_comment_btn.click()
-        comment_footer = self.browser.find_element_by_xpath(f'//div[@class="card-footer"][contains(.,"{user_name}")]')
-        assert comment_footer.is_not_displayed()
+        time.sleep(2)
+        comment_block = self.browser.find_elements_by_xpath('//div[@class="card-block"]/p')
+        assert len(comment_block) == 0
 
