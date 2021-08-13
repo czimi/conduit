@@ -1,4 +1,5 @@
 import random
+import bcrypt
 import time
 import allure
 from selenium import webdriver
@@ -34,14 +35,23 @@ class TestConduitApp(object):
         email_input.send_keys(f"proba_pista_{self.user_variable}@proba.com")
         password_input.send_keys("Proba123")
         signup_btn.click()
+        time.sleep(3)
+        registration_successful_message = self.browser.find_element_by_xpath('//div[@class="swal-text"]')
+        assert registration_successful_message.text == "Your registration was successful!"
 
         WebDriverWait(
             self.browser, 10).until(
             EC.visibility_of_element_located((By.XPATH, '//*[@class="swal-button swal-button--confirm"]'))
         ).click()
 
-    # @allure.attach
+        username_link = self.browser.find_element_by_xpath(
+            f'//a[@class="nav-link"][normalize-space()="Próba Pista {self.user_variable}"]')
+        assert username_link.text == f'Próba Pista {self.user_variable}'
+
     def test_attach_userdata(self):
+        passwd = b'Proba123'
+        salt = bcrypt.gensalt()
+        hashed_passwd = bcrypt.hashpw(passwd, salt)
         allure.attach(
-            f"username: Próba Pista {self.user_variable},\nemail: proba_pista_{self.user_variable}@proba.com,\nPassword: Proba123",
+            f"username: Próba Pista {self.user_variable},\nemail: proba_pista_{self.user_variable}@proba.com,\nPassword: {hashed_passwd}",
             attachment_type=allure.attachment_type.TEXT)
