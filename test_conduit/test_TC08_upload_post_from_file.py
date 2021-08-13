@@ -25,7 +25,7 @@ class TestConduitApp(object):
 
         csv_about_content_list = []
 
-        with open('data_for_auto_upload.csv', 'r', encoding="utf-8") as upload_file:
+        with open('test_conduit/data_for_auto_upload.csv', 'r', encoding="utf-8") as upload_file:
             csv_reader = csv.reader(upload_file, delimiter=';')
             next(csv_reader)
             for row in csv_reader:
