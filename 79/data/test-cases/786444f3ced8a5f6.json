@@ -1,0 +1,90 @@
+{
+  "uid" : "786444f3ced8a5f6",
+  "name" : "test_save_article_text",
+  "fullName" : "test_conduit.test_TC11_save_article_text_to_file.TestConduitApp#test_save_article_text",
+  "historyId" : "90c195dbafb58056134003c5dc80bde8",
+  "time" : {
+    "start" : 1629657274785,
+    "stop" : 1629657281272,
+    "duration" : 6487
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6ec864e260fc70b0",
+      "name" : "testuser3_article_scrsht",
+      "source" : "6ec864e260fc70b0.png",
+      "type" : "image/png",
+      "size" : 92505
+    }, {
+      "uid" : "a684daa1fbadc4a7",
+      "name" : "44549da2-3c51-4074-9933-a5bccc601ef4-attachment.txt",
+      "source" : "a684daa1fbadc4a7.txt",
+      "type" : "text/plain",
+      "size" : 870
+    }, {
+      "uid" : "2ef316a101dcd59b",
+      "name" : "log",
+      "source" : "2ef316a101dcd59b.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "5593d782f0799bd3",
+      "name" : "stderr",
+      "source" : "5593d782f0799bd3.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC11_save_article_text_to_file"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestConduitApp"
+  }, {
+    "name" : "host",
+    "value" : "fv-az81-941"
+  }, {
+    "name" : "thread",
+    "value" : "3811-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_conduit.test_TC11_save_article_text_to_file"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "786444f3ced8a5f6.json",
+  "parameterValues" : [ ]
+}

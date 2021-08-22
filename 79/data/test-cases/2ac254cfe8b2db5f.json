@@ -1,0 +1,84 @@
+{
+  "uid" : "2ac254cfe8b2db5f",
+  "name" : "test_attach_userdata",
+  "fullName" : "test_conduit.test_TC03_signup_dynamic.TestConduitApp#test_attach_userdata",
+  "historyId" : "d9e68427026c256d44417575117f365d",
+  "time" : {
+    "start" : 1629657147184,
+    "stop" : 1629657147488,
+    "duration" : 304
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7d6b861db5be08e2",
+      "name" : "8a377677-b4e2-4d44-ba21-4cb56a53a43e-attachment.txt",
+      "source" : "7d6b861db5be08e2.txt",
+      "type" : "text/plain",
+      "size" : 137
+    }, {
+      "uid" : "a3661205be6d50af",
+      "name" : "log",
+      "source" : "a3661205be6d50af.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "f4bcd32fae2955f",
+      "name" : "stderr",
+      "source" : "f4bcd32fae2955f.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC03_signup_dynamic"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestConduitApp"
+  }, {
+    "name" : "host",
+    "value" : "fv-az81-941"
+  }, {
+    "name" : "thread",
+    "value" : "3811-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_conduit.test_TC03_signup_dynamic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ac254cfe8b2db5f.json",
+  "parameterValues" : [ ]
+}
